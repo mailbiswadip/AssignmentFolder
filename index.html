@@ -17,12 +17,22 @@
 </head>
 
 <body>
-    
+
+<!-- Navigation bar -->
     <nav class="navbar navbar-toggleable-sm navbar-light nav-fill">
+
+<!-- Button which triggers revealing of navigation bar, button aligned to right -->
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
+
+<!-- Brand to be always visible, hence outside the collapse div -->
+
         <a class="navbar-brand" href="#"> ExamBoost </a>
+        
+<!-- Collapse navigatin items in Navigation bar below size defined in navbar-toggleable* -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ol class="breadcrumb mr-auto my-0">
                 <li class="breadcrumb-item active"><a href="#topiclist">Topic List</a></li>
@@ -34,19 +44,24 @@
         </div>
     </nav>
 
+<!-- header container which holds the carousel. Margin removed, so that carousel occupies full container height. Container flex to expand to fit the width -->
 
     <header class="container-flex">
         <div class="row header-row">
             <div class="col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    
+
+<!-- Carousel Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="color:black"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     
                 
-                
+<!-- Carousel Slide Contents -->
+
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <img class="d-block img-fluid" src="img/carousel1.jpg" alt="First slide" style="max-height:300px; width:100%">
@@ -77,6 +92,7 @@
                         </div>
                     </div>
 
+<!-- Carousel previous-next controls -->
 
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -90,6 +106,8 @@
             </div>
         </div>
     </header>
+
+<!-- List of topic cards - each card has an image, a header and description and an action button -->
 
     <div class="container" id="topiclist">
         <div class="row row-content">
@@ -128,6 +146,8 @@
 
         </div>
 
+<!-- Second row of topic card list -->
+
         <div class="row row-content">
             <div class="col-12 col-sm-4 mb-3">
                 <div class="card">
@@ -165,7 +185,8 @@
         </div>
 
     </div>
-
+    
+<!-- Footer bar -->
     <footer class="footer">
         <div class="container">
             <div class="row justify-content-center">             
