@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Question Page</title>
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-toggleable-sm navbar-light nav-fill">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"> ExamBoost </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ol class="breadcrumb mr-auto my-0">
+                <li class="breadcrumb-item"><a href="index.html">Topic List</a></li>
+                <li class="breadcrumb-item active"><a href="#">Topic Name</a></li>
+            </ol>         
+            <form class="form-inline my-0">
+                <input class="form-control" type="text" placeholder="Search Topic" style="max-width:250px">
+                <button class="btn ml-2" type="button"><span class="fa fa-sign-out fa-lg"></span> <span class="hidden-xs-down small">Sign Out</span> </button>
+            </form>                    
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#retaincontent" role="tab" data-toggle="tab"> Retain </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recallcontent"  role="tab" data-toggle="tab"> Recall </a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade show active" id="retaincontent">
+                        <div class="row row-content">
+                            <div class="col-12 col-sm-6">
+                                <div class="media">
+                                    <div class="d-flex embed-responsive embed-responsive-1by1 mr-3 mb-3" style="max-height:200px;max-width:200px">
+                                        <iframe class="embed-responsive-item align-self-center" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <h4 > Short Video on Topic 3 </h4>
+                                        <p> Brief overview of concepts of thermal energy and more </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 align-self-center mb-3"><a class= "btn btn-block btn-primary" href="questions.html"> Practice Now </a></div>
+                            
+                            <div class="col-12">
+                                <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade active" id="recallcontent">
+                        <div class="row row-content">
+                            <div class="col-12 col-sm-6">
+                                <div class="media">
+                                    <div class="d-flex embed-responsive embed-responsive-1by1 mr-3 mb-3" style="max-height:200px;max-width:200px">
+                                        <iframe class="embed-responsive-item align-self-center" src="https://www.youtube.com/embed/Mke9EHMQMYI"></iframe>
+                                    </div>
+                                    <div class="media-body align-self-center">
+                                        <h4 > Short Video on Topic 2 </h4>
+                                        <p> Brief overview of concepts of electrostatics and more </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 align-self-center mb-3"><a class= "btn btn-block btn-primary"  href="questions.html"> Diagnose and Customise Learning </a></div>
+                            
+                            <div class="col-12">
+                                <div class="embed-responsive embed-responsive-16by9"> <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mke9EHMQMYI" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2017 ExamBoost Pvt Ltd</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

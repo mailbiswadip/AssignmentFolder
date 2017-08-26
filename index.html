@@ -24,11 +24,9 @@
         </button>
         <a class="navbar-brand" href="#"> ExamBoost </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto my-0">
-                <li class="nav-item active mr-auto">
-                    <a class="nav-link" href="#"> Topic List </a>
-                </li>
-            </ul>         
+            <ol class="breadcrumb mr-auto my-0">
+                <li class="breadcrumb-item active"><a href="#topiclist">Topic List</a></li>
+            </ol>         
             <form class="form-inline my-0">
                 <input class="form-control" type="text" placeholder="Search Topic" style="max-width:250px">
                 <button class="btn ml-2" type="button"><span class="fa fa-sign-out fa-lg"></span> <span class="hidden-xs-down small">Sign Out</span> </button>
@@ -42,7 +40,7 @@
             <div class="col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="color:black"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
@@ -54,8 +52,8 @@
                             <img class="d-block img-fluid" src="img/carousel1.jpg" alt="First slide" style="max-height:300px; width:100%">
                             <div class="carousel-caption d-block">
                                 <form class="form-inline">    
-                                    <p style:"color:black;"> Topic z needs an immediate revision </p>
-                                    <button class="btn btn-sm btn-primary ml-4"><span class="fa fa-play"></span> Do Now </button>
+                                    <p style:"color:black;"> Topic XYZ needs an immediate revision </p>
+                                    <a class="btn btn-sm btn-primary ml-4" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                                 </form>
                             </div>
                         </div>
@@ -63,8 +61,8 @@
                             <img class="d-block img-fluid" src="img/carousel2.jpg" alt="Second slide" style="max-height:300px; width:100%">
                             <div class="carousel-caption d-block">
                                 <form class="form-inline align-self-center">
-                                    <p style:"color:black;"> Topic z needs an immediate revision </p>
-                                    <button class="btn btn-sm btn-primary ml-4"><span class="fa fa-play"></span> Do Now </button>
+                                    <p style:"color:black;"> Do you retain Topic ABC? Diagnose and confirm. </p>
+                                    <a class="btn btn-sm btn-primary ml-4" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                                 </form>
                             </div>
                         </div>
@@ -72,8 +70,8 @@
                             <img class="d-block img-fluid" src="img/carousel3.jpg" alt="Third slide" style="max-height:300px; width:100%">
                             <div class="carousel-caption d-block">
                                 <form class="form-inline">
-                                    <p style:"color:black;"> Topic z needs an immediate revision </p>
-                                    <button class="btn btn-sm btn-primary ml-4"><span class="fa fa-play"></span> Do Now </button>
+                                    <p style:"color:black;"> Topic CBZ needs an immediate revision </p>
+                                    <a class="btn btn-sm btn-primary ml-4" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                                 </form>
                             </div>
                         </div>
@@ -93,26 +91,26 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container" id="topiclist">
         <div class="row row-content">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-4 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="img/topic1.jpg" alt="Card image cap">
                     <div class="card-block">
-                        <h4 class="card-title">Topic Name</h4>
-                        <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <h4 class="card-title">Topic 1</h4>
+                        <p class="card-text"> A concept-heavy but easy to remember topic </p>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play" ></span> Do Now </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-4 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="img/topic2.jpg" alt="Card image cap">
                     <div class="card-block">
-                        <h4 class="card-title">Topic Name</h4>
-                        <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <h4 class="card-title">Topic 2</h4>
+                        <p class="card-text"> This topic has multiple procedures to be mastered </p>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                     </div>
                 </div>
             </div>
@@ -121,9 +119,9 @@
                 <div class="card">
                     <img class="card-img-top" src="img/topic3.jpg" alt="Card image cap">
                     <div class="card-block">
-                        <h4 class="card-title">Topic Name</h4>
-                        <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <h4 class="card-title">Topic 3</h4>
+                        <p class="card-text"> Regular revision required to retain all the content of this topic </p>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                     </div>
                 </div>
             </div>
@@ -131,24 +129,24 @@
         </div>
 
         <div class="row row-content">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-4 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="img/topic1.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Topic Name</h4>
                         <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-4 mb-3">
                 <div class="card">
                     <img class="card-img-top" src="img/topic2.jpg" alt="Card image cap">
                     <div class="card-block">
                         <h4 class="card-title">Topic Name</h4>
                         <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                     </div>
                 </div>
             </div>
@@ -159,7 +157,7 @@
                     <div class="card-block">
                         <h4 class="card-title">Topic Name</h4>
                         <p class="card-text"> Some suggestions on how to study </p>
-                        <button class="btn btn-sm btn-primary"><span class="fa fa-play"></span> Do Now </button>
+                        <a class="btn btn-sm btn-primary" href="video.html"><span class="fa fa-play"></span> Do Now </a>
                     </div>
                 </div>
             </div>
